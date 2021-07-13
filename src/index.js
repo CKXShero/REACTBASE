@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+//import App from './App';
+//import Base from './views/Base'
+//import Attr from './views/Attr'
+// import MultiTab from './views/MultiTab'
+//import Tab from './views/Tab'
+// import Father from './views/Father'
+import Fath from './views/zTof/Fath'
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+   // <App />,
+ //   <Base/>,
+    //<Attr/>,
+    // <MultiTab/>,
+    // <Father/>,
+    <Fath/>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

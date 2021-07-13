@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+div{
+    width:700px;
+    height:400px;
+    margin:50px auto;
+}
+ol{
+    display:flex;
+    align-items: center;
+}
+ol>li{
+    margin-right:10px;
+    width:100px;
+    height:36px;
+    line-height:36px;
+    text-align:center;
+}
+ol>li.active{
+    background:red;
+    color:#fff;
+}
+ul>li{
+    width:100px;
+    height:160px;
+    border:1px solid green;
+}
